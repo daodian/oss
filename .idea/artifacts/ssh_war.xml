@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ssh:war">
+    <output-path>E:/ssh/target</output-path>
+    <root id="archive" name="springmvc-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ssh:war exploded" />
+    </root>
+  </artifact>
+</component>

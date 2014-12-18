@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3094791029">
+    <data-source source="LOCAL" name="SQL Server - oss@localhost" uuid="88a1dede-10b5-4a2a-b7e6-570315b656f3">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost:1433;databaseName=oss</jdbc-url>
+      <user-name>sa</user-name>
+      <user-password>dfd9dfc2dfc3dfc4dfc5dfdd</user-password>
+      <schema-pattern>oss.*</schema-pattern>
+      <default-schemas>oss.*</default-schemas>
+      <libraries>
+        <library>
+          <url>file://E:/sqljdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="MySQL - test@localhost" uuid="6eee0a60-1f16-4181-a2c4-785a51a57f01">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/test</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfd9dfc2dfc3dfc4dfc5dfdd</user-password>
+      <schema-pattern>test.*</schema-pattern>
+      <default-schemas>test.*</default-schemas>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries>
+        <library>
+          <url>file://E:/mysql-connector-java-5.1.27.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="ssh" uuid="cfc65ab0-3933-4de8-8caa-17e58918b530">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/test</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfd9dfc2dfc3dfc4dfc5dfdd</user-password>
+      <libraries>
+        <library>
+          <url>file://D:\java\maven\repo\mysql\mysql-connector-java\5.1.27\mysql-connector-java-5.1.27.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
